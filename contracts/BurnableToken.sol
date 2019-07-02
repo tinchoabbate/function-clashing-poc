@@ -4,7 +4,7 @@ import "openzeppelin-eth/contracts/token/ERC20/ERC20Burnable.sol";
 import "openzeppelin-eth/contracts/token/ERC20/ERC20Detailed.sol";
 import "zos-lib/contracts/Initializable.sol";
 
-contract ShadyToken is Initializable, ERC20Burnable, ERC20Detailed {
+contract BurnableToken is Initializable, ERC20Burnable, ERC20Detailed {
 
     function initialize(
         string memory name,
