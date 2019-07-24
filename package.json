@@ -3,16 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "npx truffle test --network testrpc"
+    "test": "npx truffle test"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@openzeppelin/contracts-ethereum-package": "2.2.1",
+    "@openzeppelin/upgrades": "2.5.1",
     "chai": "4.2.0",
-    "openzeppelin-eth": "2.1.3",
     "openzeppelin-test-helpers": "0.4.0",
-    "truffle": "5.0.14",
-    "zos-lib": "2.4.1"
+    "truffle": "5.0.14"
   }
 }

@@ -1,8 +1,8 @@
 pragma solidity ^0.5.0;
 
-import "openzeppelin-eth/contracts/token/ERC20/ERC20Burnable.sol";
-import "openzeppelin-eth/contracts/token/ERC20/ERC20Detailed.sol";
-import "zos-lib/contracts/Initializable.sol";
+import "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/ERC20Burnable.sol";
+import "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/ERC20Detailed.sol";
+import "@openzeppelin/upgrades/contracts/Initializable.sol";
 
 contract BurnableToken is Initializable, ERC20Burnable, ERC20Detailed {
 
