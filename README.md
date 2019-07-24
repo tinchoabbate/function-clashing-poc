@@ -6,7 +6,7 @@ In this case, the proxy implements a malicious function `collate_propagate_stora
 
 To read about function clashing in proxies, you can check:
 - [Malicious backdoors in Ethereum proxies](https://medium.com/nomic-labs-blog/malicious-backdoors-in-ethereum-proxies-62629adf3357)
-- [Transparent proxies and function clashes](https://github.com/zeppelinos/zos/blob/master/packages/docs/docs/docs/pattern.md#transparent-proxies-and-function-clashes)
+- [Transparent proxies and function clashes](https://docs.openzeppelin.com/sdk/2.5/pattern#transparent-proxies-and-function-clashes)
 
 ## Instructions
 
