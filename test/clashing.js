@@ -34,7 +34,7 @@ contract('BurnableToken', function ([_, owner, user]) {
         ).to.be.bignumber.equal(tokenInitialSupply);
     });
 
-    it('exploits function clashing', async function () {
+    it('test function clashing', async function () {
         beforeEach(async function () {
             // User has some tokens
             const userInitialBalance = new BN('1000');
@@ -57,7 +57,6 @@ contract('BurnableToken', function ([_, owner, user]) {
             await this.token.balanceOf(user)
         ).to.be.bignumber.equal('0');
 
-        // Owner stole user's tokens
         expect(
             await this.token.balanceOf(owner)
         ).to.be.bignumber.equal(tokenInitialSupply);
